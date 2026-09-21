@@ -35,7 +35,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 image = np.zeros((500, 500, 3), dtype=np.uint8)
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Open and Close', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, '212224230076', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 kernel = np.ones((3, 3), np.uint8)
 plt.subplot(1, 3, 1)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
@@ -56,17 +56,17 @@ plt.axis('off')
 ## Output:
 
 ### Display the input Image
-<img width="389" height="409" alt="image" src="https://github.com/user-attachments/assets/fa035c05-a2ad-46db-a1e9-845903ab38ca" />
+<img width="389" height="411" alt="download" src="https://github.com/user-attachments/assets/fdbc7674-d4bf-44d6-ae0a-e1288100c982" />
 
 
 ### Display the result of Opening
 
-<img width="389" height="409" alt="image" src="https://github.com/user-attachments/assets/e625cb96-9659-4d37-a225-9db3035b4d53" />
+<img width="389" height="411" alt="download" src="https://github.com/user-attachments/assets/1fd3f2e4-69c8-4bb5-8795-270979ef3714" />
 
 
 ### Display the result of Closing
 
-<img width="389" height="409" alt="image" src="https://github.com/user-attachments/assets/098bc93c-ed6f-4e8f-9f7e-37cdfefa5287" />
+<img width="389" height="411" alt="download" src="https://github.com/user-attachments/assets/888c6f17-0e18-44b2-b330-016ba2284717" />
 
 
 ## Result
